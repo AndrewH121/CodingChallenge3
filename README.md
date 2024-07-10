@@ -6,13 +6,14 @@ Step 1: Copy Over Coding Challenge Solution 2 to a new Swift file in a separate 
 
 Step 2: Implement the following features in your new file:
 
-Part 1: Handling User Reviews
+*Part 1: Handling User Reviews*
 Create an Array of Reviews:
-Declare an array userReviews to store individual review ratings (Double). Assume ratings are between 1.0 to 5.0.
-Assign initial values to this array representing past user reviews.
+- Declare an array userReviews to store individual review ratings (Double). Assume ratings are between 1.0 to 5.0.
+- Assign initial values to this array representing past user reviews.
+
 Calculate Average Rating:
-Use a for loop to iterate through the userReviews array and calculate the average rating.
-Print the average rating with descriptive text.
+- Use a for loop to iterate through the userReviews array and calculate the average rating.
+- Print the average rating with descriptive text.
 
 Part 2: Adding New Reviews
 Simulate Adding New Reviews:
