@@ -1,0 +1,67 @@
+let appName :String = "Apple"
+let developerName :String = "Andrew"
+let releaseDate :Int = 2024
+var currentVersion : Double = 8.0
+var numberOfDownloads :Int = 100
+var userRating : Double = 4.5
+
+
+
+currentVersion += 0.1
+print("current version: \(currentVersion)")
+
+numberOfDownloads += 1000
+print("the number of downloads is: \(numberOfDownloads)")
+
+userRating += 0.2
+print("new user rating: \(userRating)")
+
+let newFeature :String = "Extra bass"
+
+print("the new feature is: \(newFeature)")
+
+var badReviews :Int = 3
+var goodReviews :Int = 50
+var allReviews :Int = 53
+
+
+
+print("the total number of reviews: \(allReviews)")
+
+userRating += 0.8
+
+print("the new rating is: \(userRating)")
+
+
+let recomend : String = "recommend"
+
+if userRating >= 4.2 { 
+print("new feature is highly: \(recomend)")
+} 
+else if userRating > 3.5 && userRating < 4.4 {
+print("new feature is: \(recomend)")
+}
+else if userRating > 2.5 && userRating < 3.4 {
+print("new feature is moderately: \(recomend)")
+
+}else if userRating < 2.5 {
+print("new feature is not: \(recomend)")
+
+}
+
+
+
+var userReveiws: [Double] = [2.8,4.9,3.3,5.0,1.5]
+
+
+var count : Double = Double(userReviews.count)
+
+var sum : Double = 0.0
+
+for userReview in userReveiws {
+print(userReview)
+
+    sum+=userReveiw
+}
+ 
+ for userReveiw in userReveiws {print( us
